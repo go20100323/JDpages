@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<link href="css/login.css" style="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="w">
+			<div class="logo">
+				<a href="index.html">
+					<img  src="img/logo.png" alt="京东" width="170" height="60"/>
+				</a>
+				<b>欢迎登录</b>
+			</div>
+		</div>
+		<div class="content">
+			<div class="login-wrap">
+				<div class="w">
+					<div class="login-form">
+						<div class="login-tab login-tab-l">
+							<a href="#" style="outline: rgb(109,109,109) none 0px;">
+								扫码登录
+							</a>
+						</div>
+						<div class="login-tab login-tab-r">
+							<a class="checked" style="outline: rgb(109,109,109) none 0px;">
+								帐户登录
+							</a>
+						</div>
+						<div class="login-box">
+							<div class="mt tab-h">
+							</div>
+							<div class="msg-wrap">
+								<div class="msg-warn" >
+									<b></b>
+									公共场所不建设自动登录，以防账号丢失
+								</div>
+								<div class="msg-error" >
+									<b></b>
+									请输入账户名和密码
+								</div>
+							</div>
+							<div class="mc">
+								<div class="form">
+									<form id="formlogin" method="ost" onsubmit="return false;">
+										<div class="item item-fore1">
+											<label for="loginname" class="login-label name-label"></label>
+											<input id="loginname" type="text" class="itxt" name="loginname" tabindex="1" 
+												atuocomplete="off" placeholder="邮箱/用户名/已验证手机"/>
+											<span class="clear-btn"></span>
+										</div>
+										<div id="entry" class="item item-fore2">
+											<label for="nloginpwd" class="login-label pwd-label"></label>
+											<input id="nloginpwd" type="password" class="itxt itxt-error" name="loginname" tabindex="2" 
+												atuocomplete="off" placeholder="密码"/>
+											<span class="clear-btn1"></span>
+										</div>
+										<div class="item item-fore3">
+											<div class="safe">
+												<span>
+													<input type="checkbox" checked="checked" class="jdcheckbox" tabindex="3" style="outline: rgb(109,109,109) none 0px;"/>
+													<label>自动登录</label>
+												</span>
+												<span class="forget-pw-safe">
+													<a href="" target="_blank">忘记密码</a>
+												</span>
+											</div>
+										</div>
+										<div class="item item-fore5">
+											<div class="login-btn">
+												<a href="#" class="btn-img btn-entry" tabindex="6" style="outline: rgb(109,109,109) none 0px;">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="coagent">
+							<ul>
+								<li><a href="#">
+									京东钱包
+									</a>
+									<span class="line">|</span>
+								</li>
+								<li><a href="#">
+									QQ
+									</a>
+									<span class="line">|</span>
+								</li>
+								<li><a href="#">
+									微信
+									</a>
+									<span class="line">|</span>
+								</li>
+								<li class="extra-r">
+									<div>
+										<div class="regist-link">
+											<a href="person-reg.html" target="_blank" style="outline: rgb(109,109,109) none 0px;">
+												<b></b>
+												立即注册
+											</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="qrcode-login">
+							<div 6lass="mc">
+								<div class="qrcode-error-2016">
+									<div class="qrcode-error-mask">
+									</div>
+									<p class="err-cont">二维码已件效</p>
+									<a href="" class="refresh-btn">刷新</a>
+								</div>
+								<div class="qrcode-main">
+									<div class="qrcode-img">
+										<img src="img/password.png" alt=""/>
+										<div class="qrocde-error02 hide" id="J-qrcoderror" >
+											<a href="">
+												<span class="error-icon"></span>
+												<div class="txt">
+													网络开小差咯
+													<span calss="m110">刷新二维码</span>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="qrcode-hlep"></div>
+								</div>
+								<div class="qrcode-pane1">
+									<ul>
+										<li class="fore1">
+											<a href="" target="_blank" style="outline: rgb(109,109,109) none 0px;">打开新版<span class="red">手机京东</span>,扫描二维码
+											</a>
+										</li>
+										<li class="pane1-line"></li>
+										<li>
+											<a href="" target="_blank" style="outline: rgb(109,109,109) none 0px;"> 
+											使用帮助
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="coagent qr-coagent">
+							<ul>
+								<li class="free">
+									<b></b>
+									<em>免输入</em>
+								</li>
+								<li class="faster">
+									<b></b>
+									<em>更快</em>
+								</li>
+								<li class="more-safe">
+									<b></b>
+									<em>更安全</em>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>				
+				<div class="login-banner">
+					<div class="w">
+						<div class="banner-bg i-inner"></div>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<div class="w">
+			<div class="ar">
+				<a href="#" target="_blank" class="q-link">
+					<b></b>
+					登录页面，调查问卷
+				</a>
+			</div>
+		</div>
+		<div class="w">
+			<div id="footer-2013">
+				<div class="links">
+					<a rel="nofollow" target="_blank" href="#">
+						关于我们
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						联系我们
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						人才招聘
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						商家入驻
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						广告服务
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						手机京东
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						友情链接
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						销售联盟
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						京东社区
+					</a>|
+					<a rel="nofollow" target="_blank" href="#">
+						京东公益
+					</a>|
+				</div>
+				<div class="copyright">
+					Copyright&copy;2004-2016京东JD.com&nbsp;版权所有
+				</div>
+			</div>
+		</div>
+		<script>
+			//扫二维码登录
+			$('.login-tab-l').hover(function(){
+				$('.login-tab-l a').toggleClass('change');
+			}).click(function(){
+				$('.login-tab-r a').removeClass('checked');
+				$('.login-tab-l a').addClass('checked');
+				$('.login-box').toggle();
+				$('.qrcode-login').toggle();
+				$('.qrcode-login').toggle();
+				$('.qrcode-login').toggle();
+				$('.qr-coagent').toggle();
+			});
+			//账户密码登录
+			$('.login-tab-r').hover(function(){
+				$('.login-tab-r a').toggleClass('change');
+			}).click(function(){
+				$('.login-tab-l a').removeClass('checked');
+				$('.login-tab-r a').addClass('checked');
+				$('.qrcode-login').toggle();
+				$('.login-box').toggle();
+				$('.qr-coagent').toggle();
+			});
+			//自动登录警告
+			$('.jdcheckbox:checked').change(function(){
+				$('.msg-warn,.msg-error').toggle();
+			});
+			//用户名输入框
+			$('#loginname').focus(function(){
+				$('.item-fore1 label').removeClass('name-label').addClass('item-focus');
+			}).blur(function(){
+				$('.item-fore1 label').removeClass('item-focus').addClass('name-label');
+			}).keydown(function(){
+				$('.clear-btn').show();			
+			});
+			$('.clear-btn').click(function(){
+				$('#loginname').val("");
+				$('.clear-btn').hide();			
+			})
+			//密码输入框
+			$('#nloginpwd').focus(function(){
+				$('#entry label').removeClass('pwd-label').addClass('item-focus1');
+			}).blur(function(){
+				$('#entry label').removeClass('item-focus1').addClass('pwd-label');
+			}).keydown(function(){
+				$('.clear-btn1').show();
+			});
+			$('.clear-btn1').click(function(){
+				$('#nloginpwd').val("");
+				$('.clear-btn1').hide();			
+			})
+			//二维码移动
+			$('.qrcode-img').hover(function(){
+				$('.qrcode-img').stop().animate({"left":0},700,function(){
+					$('.qrcode-hlep').stop().show();
+				});
+			},function(){
+				$('.qrcode-hlep').hide();
+				$('.qrcode-img').stop().animate({"left":"63px"});
+				
+			})
+		</script>
+	</body>
+</html>
